@@ -1,4 +1,10 @@
 #!/usr/bin/python
+
+# Steps: IN TERMINAL or COMMAND PROMPT
+# ◼️ Very simple, just running the script 📁`./recognize-from-microphone.py -s 5`, with (for example) argument paremeters= `-s 5` which specify to length (=5 seconds) of the microphone record.
+# ✔️ and wait for some audio recognition processing and see the result :D.
+# https://www.youtube.com/watch?v=NRx2clU6vZY
+
 import argparse
 import sys
 from argparse import RawTextHelpFormatter

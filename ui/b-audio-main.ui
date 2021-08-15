@@ -11,33 +11,62 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>RCD - Audio Search</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="selectSourceFolderBtn">
+   <widget class="QPushButton" name="listenAndSearchBtn">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>40</y>
+      <x>170</x>
+      <y>60</y>
       <width>131</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>Select Source Folder</string>
+     <string>Listen and Recognize!</string>
     </property>
    </widget>
    <widget class="QPushButton" name="addFingerprintsBtn">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>80</y>
+      <x>190</x>
+      <y>20</y>
       <width>101</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>Add Fingerprints</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outputMessageLabel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>400</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>
@@ -47,9 +76,15 @@
      <x>0</x>
      <y>0</y>
      <width>500</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

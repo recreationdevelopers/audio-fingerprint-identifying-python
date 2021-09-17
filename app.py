@@ -79,7 +79,7 @@ class UiWindow(qtw.QMainWindow):
         # fingerprint all files in a directory
 
         for filename in os.listdir(path):
-            if filename.endswith(".wav"):
+            if filename.endswith(".mp3"):
                 reader = FileReader(path + filename)
                 audio = reader.parse_audio()
 
